@@ -130,11 +130,4 @@ Hospital-Readmission-Risk/
 └── README.md
 ```
 
----
 
-## Future Improvements
-
-- Hyperparameter tuning
-- Cross-validation
-- SHAP model explainability
-- Deployment using Streamlit
