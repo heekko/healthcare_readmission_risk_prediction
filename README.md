@@ -8,6 +8,30 @@ This project analyses hospital readmission patterns using the **Diabetes 130-US 
 
 ---
 
+## Key Results
+
+- Higher readmission risk was observed among older patients (70-90 years) and patients with longer hospital stays, more diagnoses, and greater medication use.
+- Previous inpatient visits were among the strongest predictors of future readmission.
+- XGBoost achieved the strongest overall predictive performance, with an ROC-AUC of 0.70 and accuracy of 0.65.
+- The analysis demonstrates how patient and clinical characteristics can be integrated into a machine-learning workflow for hospital readmission risk prediction.
+
+---
+
+## Dashboard
+
+![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk prediction dashboard.png)
+
+The Power BI dashboard includes:
+- Readmission KPIs
+- Readmission by Age Group
+- Readmission by Diagnosis Category
+- Readmission by Previous Inpatient Visits
+- Feature importance comparison
+- Machine learning model comparison
+- Interactive slicers
+
+---
+
 ## Business Problem
 
 Hospital readmissions are an important quality indicator in healthcare.
@@ -81,53 +105,48 @@ Three machine learning models were evaluated.
 | Random Forest | 0.63 | 0.62 | 0.52 | 0.56 | 0.68 |
 | XGBoost | **0.65** | **0.63** | **0.56** | **0.59** | **0.70** |
 
-XGBoost achieved the strongest predictive performance, demonstrating improved identification of patients at risk of hospital readmission.
+
+Model Performance Interpretation:
+
+XGBoost achieved the strongest overall performance among the three evaluated models, with the highest accuracy, recall, F1-score and ROC-AUC. Random Forest showed intermediate performance, while Logistic Regression provided a useful baseline.
+
+Although XGBoost performed best, the moderate ROC-AUC indicates that hospital readmission remains a challenging prediction problem and that the available clinical and demographic features provide only partial discrimination between patients with different readmission outcomes.
 
 ---
 
-## Key Findings
-
-- Patients aged **70–90 years** exhibited the highest readmission risk.
-- Longer hospital stays were associated with increased readmission.
-- Patients with more medications and diagnoses were more likely to be readmitted.
-- Previous inpatient visits were among the strongest predictors of future readmission.
-- XGBoost produced the best overall predictive performance.
-
----
-
-## Dashboard
-
-The Power BI dashboard includes:
-
-- Readmission KPIs
-- Readmission by Age Group
-- Readmission by Diagnosis Category
-- Readmission by Previous Inpatient Visits
-- Feature importance comparison
-- Machine learning model comparison
-- Interactive slicers
-
----
 
 ## Repository Structure
 
 ```
 Hospital-Readmission-Risk/
 │
-├── data/
-├── notebooks/
-│   └── diabetes_risk analysis_prediction.ipynb
-│
-├── notebooks_sql/
-│   └── diabetes_risk analysis-sql.ipynb
-|   └── diabetes_risk.db
-│
-├── powerbi/
-│   ├── diabetes_risk prediction dashboard_4.pbix
-│   └── diabetes_risk prediction dashboard_4.pdf
-│
-├── requirements.txt
-└── README.md
+├── data/` — Dataset and processed data
+├── notebooks/` — Python analysis and machine-learning modelling
+├── notebooks_sql/` — SQL analysis and database
+├── powerbi/` — Power BI dashboard and visualisations
+├── requirements.txt` — Python dependencies
+└── README.md` — Project documentation
 ```
 
+## How to Run
 
+1. Clone or download this repository.
+2. Install the required Python packages:
+
+   pip install -r requirements.txt
+
+3. Open the notebook in `notebooks/` using Jupyter Notebook or JupyterLab.
+4. Run the notebook to reproduce the data analysis and machine-learning workflow.
+5. SQL analyses are available in `notebooks_sql/`.
+6. Power BI dashboard files are available in `powerbi/`.
+
+## Skills Demonstrated
+- Data cleaning and preprocessing with Python and pandas
+- Exploratory data analysis of healthcare data
+- SQL querying and aggregation
+- Feature engineering for predictive modelling
+- Classification using Logistic Regression, Random Forest, and XGBoost
+- Model evaluation using accuracy, precision, recall, F1-score, and ROC-AUC
+- Feature-importance analysis
+- Power BI dashboard development
+- Interpretation and communication of predictive modelling results
