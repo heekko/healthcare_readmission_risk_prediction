@@ -19,16 +19,10 @@ This project analyses hospital readmission patterns using the **Diabetes 130-US 
 
 ## Dashboard
 
+The Power BI dashboard summarises readmission KPIs, readmission by age group, readmission by diagnosis category, readmission by previous inpatient visits, feature importance comparison, machine learning model comparison, and interactive slicers.
+
 ![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk_prediction_dashboard.png)
 
-The Power BI dashboard includes:
-- Readmission KPIs
-- Readmission by Age Group
-- Readmission by Diagnosis Category
-- Readmission by Previous Inpatient Visits
-- Feature importance comparison
-- Machine learning model comparison
-- Interactive slicers
 
 ---
 
