@@ -19,7 +19,7 @@ This project analyses hospital readmission patterns using the **Diabetes 130-US 
 
 ## Dashboard
 
-![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk prediction dashboard.png)
+![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk_prediction_dashboard.png)
 
 The Power BI dashboard includes:
 - Readmission KPIs
