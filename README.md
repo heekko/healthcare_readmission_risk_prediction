@@ -125,10 +125,7 @@ Hospital-Readmission-Risk/
 ## How to Run
 
 1. Clone or download this repository.
-2. Install the required Python packages:
-
-   pip install -r requirements.txt
-
+2. Install the required Python packages (requirements.txt)
 3. Open the notebook in `notebooks/` using Jupyter Notebook or JupyterLab.
 4. Run the notebook to reproduce the data analysis and machine-learning workflow.
 5. SQL analyses are available in `notebooks_sql/`.
