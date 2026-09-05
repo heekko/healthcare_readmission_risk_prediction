@@ -23,7 +23,6 @@ The Power BI dashboard summarises readmission KPIs, readmission by age group, re
 
 ![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk_prediction_dashboard.png)
 
-
 ---
 
 ## Business Problem
@@ -55,6 +54,14 @@ The dataset contains over 100,000 hospital admissions for diabetic patients and 
 - Laboratory procedures
 - Length of hospital stay
 - Readmission status
+
+Target Variable for machine-learning analysis, the original readmission outcome was converted to a binary variable:
+
+NO → Not readmitted
+<30 → Readmitted
+>30 → Readmitted
+
+The models therefore predict whether a patient encounter is associated with subsequent readmission, regardless of whether readmission occurred within or after 30 days.
 
 ---
 
@@ -111,15 +118,14 @@ Although XGBoost performed best, the moderate ROC-AUC indicates that hospital re
 
 ## Repository Structure
 
-```
 Hospital-Readmission-Risk/
 │
-├── data/` — Dataset and processed data
-├── notebooks/` — Python analysis and machine-learning modelling
-├── notebooks_sql/` — SQL analysis and database
-├── powerbi/` — Power BI dashboard and visualisations
-├── requirements.txt` — Python dependencies
-└── README.md` — Project documentation
+├── data/            — Dataset and processed data
+├── notebooks/       — Python analysis and machine-learning modelling
+├── notebooks_sql/   — SQL analysis and database
+├── powerbi/         — Power BI dashboard and visualisations
+├── requirements.txt — Python dependencies
+└── README.md        — Project documentation
 ```
 
 ## How to Run
