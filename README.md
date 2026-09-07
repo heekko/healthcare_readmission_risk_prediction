@@ -56,9 +56,9 @@ The dataset contains over 100,000 hospital admissions for diabetic patients and 
 - Readmission status
 
 Target Variable for machine-learning analysis, the original readmission outcome was converted to a binary variable:
-- NO -> Not readmitted
-- <30 -> Readmitted
-- >30 -> Readmitted
+-  NO -> Not readmitted
+-  <30 -> Readmitted
+-  >30 -> Readmitted
 
 The models therefore predict whether a patient encounter is associated with subsequent readmission, regardless of whether readmission occurred within or after 30 days.
 
@@ -114,7 +114,7 @@ Although XGBoost performed best, the moderate ROC-AUC indicates that hospital re
 
 
 ## Repository Structure
-
+'''
 Hospital-Readmission-Risk/
 │
 ├── data/            — Dataset and processed data
@@ -123,6 +123,7 @@ Hospital-Readmission-Risk/
 ├── powerbi/         — Power BI dashboard and visualisations
 ├── requirements.txt — Python dependencies
 └── README.md        — Project documentation
+'''
 
 ---
 
