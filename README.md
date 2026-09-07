@@ -21,7 +21,7 @@ This project analyses hospital readmission patterns using the **Diabetes 130-US 
 
 The Power BI dashboard summarises readmission KPIs, readmission by age group, readmission by diagnosis category, readmission by previous inpatient visits, feature importance comparison, machine learning model comparison, and interactive slicers.
 
-![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk_prediction_dashboard.png)
+![Hospital Readmission Power BI Dashboard](powerbi/diabetes_risk_prediction_dashboard_5.png)
 
 ---
 
@@ -102,16 +102,14 @@ Three machine learning models were evaluated.
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |--------|---------:|----------:|--------:|----------:|---------:|
-| Logistic Regression | 0.62 | 0.63 | 0.44 | 0.52 | 0.66 |
-| Random Forest | 0.63 | 0.62 | 0.52 | 0.56 | 0.68 |
+| Logistic Regression | 0.63 | 0.63 | 0.44 | 0.52 | 0.67 |
+| Random Forest | 0.64 | 0.62 | 0.52 | 0.57 | 0.68 |
 | XGBoost | **0.65** | **0.63** | **0.56** | **0.59** | **0.70** |
 
 
-Model Performance Interpretation:
-
 XGBoost achieved the strongest overall performance among the three evaluated models, with the highest accuracy, recall, F1-score and ROC-AUC. Random Forest showed intermediate performance, while Logistic Regression provided a useful baseline.
 
-Although XGBoost performed best, the moderate ROC-AUC indicates that hospital readmission remains a challenging prediction problem and that the available clinical and demographic features provide only partial discrimination between patients with different readmission outcomes.
+Although XGBoost performed best, the moderate ROC-AUC indicates that hospital readmission remains a challenging prediction problem and that the available clinical and demographic features seemed to provide only partial discrimination between patients with different readmission outcomes.
 
 ---
 
@@ -126,6 +124,7 @@ Hospital-Readmission-Risk/
 ├── powerbi/         — Power BI dashboard and visualisations
 ├── requirements.txt — Python dependencies
 └── README.md        — Project documentation
+
 ```
 
 ## How to Run
@@ -136,6 +135,8 @@ Hospital-Readmission-Risk/
 4. Run the notebook to reproduce the data analysis and machine-learning workflow.
 5. SQL analyses are available in `notebooks_sql/`.
 6. Power BI dashboard files are available in `powerbi/`.
+
+---
 
 ## Skills Demonstrated
 - Data cleaning and preprocessing with Python and pandas
