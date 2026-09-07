@@ -4,4 +4,4 @@ seaborn==0.13.2
 matplotlib==3.7.1
 scikit-learn==1.5.1
 xgboost
-jupyter Notebook==7.4.5
+notebook==7.4.5
