@@ -114,7 +114,7 @@ Although XGBoost performed best, the moderate ROC-AUC indicates that hospital re
 
 
 ## Repository Structure
-'''
+
 Hospital-Readmission-Risk/
 │
 ├── data/            — Dataset and processed data
@@ -123,7 +123,7 @@ Hospital-Readmission-Risk/
 ├── powerbi/         — Power BI dashboard and visualisations
 ├── requirements.txt — Python dependencies
 └── README.md        — Project documentation
-
+'''
 
 ---
 
