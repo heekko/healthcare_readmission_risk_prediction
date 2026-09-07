@@ -115,7 +115,7 @@ Although XGBoost performed best, the moderate ROC-AUC indicates that hospital re
 
 ## Repository Structure
 
-Hospital-Readmission-Risk/
+Hospital-Readmission-Risk/'
 │
 ├── data/            — Dataset and processed data
 ├── notebooks/       — Python analysis and machine-learning modelling
