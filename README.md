@@ -112,21 +112,6 @@ Although XGBoost performed best, the moderate ROC-AUC indicates that hospital re
 
 ---
 
-
-## Repository Structure
-```text
-Hospital-Readmission-Risk/
-│
-├── data/            — Dataset and processed data
-├── notebooks/       — Python analysis and machine-learning modelling
-├── notebooks_sql/   — SQL analysis and database
-├── powerbi/         — Power BI dashboard and visualisations
-├── requirements.txt — Python dependencies
-└── README.md        — Project documentation
-'''
-
----
-
 ## How to Run
 
 1. Clone or download this repository.
@@ -148,3 +133,19 @@ Hospital-Readmission-Risk/
 - Feature-importance analysis
 - Power BI dashboard development
 - Interpretation and communication of predictive modelling results
+
+--- 
+
+## Repository Structure
+```text
+Hospital-Readmission-Risk/
+│
+├── data/            — Dataset and processed data
+├── notebooks/       — Python analysis and machine-learning modelling
+├── notebooks_sql/   — SQL analysis and database
+├── powerbi/         — Power BI dashboard and visualisations
+├── requirements.txt — Python dependencies
+└── README.md        — Project documentation
+'''
+
+
