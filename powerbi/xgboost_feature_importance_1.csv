@@ -1,0 +1,177 @@
+Feature,Importance
+number_inpatient,0.09548469
+discharge_disposition_id,0.030813267
+number_emergency,0.022517288
+diabetesMed_Yes,0.022268506
+medical_specialty_1_ObstetricsandGynecology,0.017007137
+number_diagnoses,0.016251076
+admission_source_id,0.015960032
+number_outpatient,0.015018117
+medical_specialty_1_Surgery-Cardiovascular/Thoracic,0.013179165
+Diagnosis_Category (diag_2)_Injury,0.012089387
+age_[80-90),0.012027994
+medical_specialty_1_Nephrology,0.011965517
+age_[70-80),0.011308696
+medical_specialty_1_Orthopedics-Reconstructive,0.011180756
+medical_specialty_1_Emergency/Trauma,0.010729474
+Diagnosis_Category (diag_1)_Diabetes,0.010653001
+medical_specialty_1_InternalMedicine,0.01057937
+age_[90-100),0.009791179
+medical_specialty_1_Orthopedics,0.009631046
+race_Asian,0.00935456
+admission_type_id,0.009092797
+repaglinide_Steady,0.008933671
+age_[30-40),0.00892223
+race_AfricanAmerican,0.008820982
+pioglitazone_Steady,0.008533575
+medical_specialty_1_None,0.008488002
+max_glu_serum_>300,0.00844374
+glyburide_Up,0.008319987
+metformin_No,0.008150644
+Diagnosis_Category (diag_1)_Genitourinary,0.008076996
+medical_specialty_1_Surgery-Neuro,0.008041781
+age_[60-70),0.008010121
+Diagnosis_Category (diag_1)_Injury,0.00800087
+A1Cresult_Norm,0.007929482
+Diagnosis_Category (diag_1)_Other,0.007908659
+repaglinide_No,0.007898877
+medical_specialty_1_Radiologist,0.007878965
+Diagnosis_Category (diag_3)_Injury,0.0078572305
+medical_specialty_1_Pediatrics-Endocrinology,0.007739409
+medical_specialty_1_Cardiology,0.0077288235
+max_glu_serum_>200,0.0077233
+num_procedures,0.0076507935
+num_medications,0.0074455435
+age_[20-30),0.007355592
+race_Caucasian,0.0073412745
+race_Other,0.0073323688
+medical_specialty_1_Family/GeneralPractice,0.007233341
+pioglitazone_No,0.00715683
+medical_specialty_1_Surgery-Vascular,0.0071433363
+glyburide_Steady,0.0071265385
+rosiglitazone_No,0.0070763794
+metformin_Up,0.0070626186
+Diagnosis_Category (diag_3)_Respiratory,0.007026876
+A1Cresult_>8,0.006986626
+Diagnosis_Category (diag_2)_Digestive,0.0069832276
+Diagnosis_Category (diag_3)_Other,0.006880526
+glyburide-metformin_No,0.0068690632
+Diagnosis_Category (diag_1)_Musculoskeletal,0.0068603572
+Diagnosis_Category (diag_3)_Digestive,0.006776544
+glipizide_Up,0.0066585843
+Diagnosis_Category (diag_3)_Musculoskeletal,0.006621427
+time_in_hospital,0.006615342
+acarbose_Steady,0.006562245
+change_No,0.006557333
+Diagnosis_Category (diag_2)_Respiratory,0.0065326234
+age_[50-60),0.0064995647
+A1Cresult_>7,0.0064972215
+Diagnosis_Category (diag_3)_Genitourinary,0.0064691505
+num_lab_procedures,0.0064143217
+Diagnosis_Category (diag_1)_Respiratory,0.0062803254
+Diagnosis_Category (diag_2)_Other,0.006185514
+Diagnosis_Category (diag_2)_Genitourinary,0.0061666863
+rosiglitazone_Steady,0.0060908124
+acarbose_No,0.00606643
+glimepiride_Steady,0.0060619395
+medical_specialty_1_Psychology,0.0060568475
+race_Hispanic,0.0059907087
+glyburide_No,0.005968619
+metformin_Steady,0.0058998964
+Diagnosis_Category (diag_2)_Musculoskeletal,0.00585796
+medical_specialty_1_Oncology,0.0058270823
+age_[40-50),0.0058164587
+medical_specialty_1_Hematology/Oncology,0.0058100563
+insulin_Up,0.00571309
+gender_Male,0.005666382
+medical_specialty_1_Urology,0.0056572845
+Diagnosis_Category (diag_2)_Diabetes,0.005630397
+Diagnosis_Category (diag_3)_Diabetes,0.005626183
+insulin_Steady,0.0056028413
+max_glu_serum_Norm,0.0055574183
+medical_specialty_1_Pediatrics-CriticalCare,0.005501626
+medical_specialty_1_PhysicalMedicineandRehabilitation,0.0054570697
+glipizide_No,0.005412623
+medical_specialty_1_Surgery-General,0.0054047857
+medical_specialty_1_Psychiatry,0.0052782246
+miglitol_No,0.0052713393
+glipizide_Steady,0.0052703703
+glimepiride_No,0.005243225
+medical_specialty_1_Pulmonology,0.0050654826
+age_[10-20),0.004932193
+medical_specialty_1_Gastroenterology,0.0048611253
+repaglinide_Up,0.0047870018
+glimepiride_Up,0.0045858533
+Diagnosis_Category (diag_1)_Digestive,0.004346789
+insulin_No,0.004304801
+pioglitazone_Up,0.0040643667
+medical_specialty_1_Neurology,0.003831225
+medical_specialty_1_Pediatrics,0.003489981
+medical_specialty_1_Surgery-Plastic,0.0034351859
+medical_specialty_1_Podiatry,0.00310555
+medical_specialty_1_SurgicalSpecialty,0.0030239515
+medical_specialty_1_Pediatrics-Neurology,0.0030215657
+medical_specialty_1_Hematology,0.002965433
+medical_specialty_1_Obstetrics,0.0029398273
+medical_specialty_1_Gynecology,0.00288556
+medical_specialty_1_Pediatrics-Pulmonology,0.0027871053
+medical_specialty_1_Otolaryngology,0.0027591581
+glyburide-metformin_Steady,0.0027332448
+medical_specialty_1_Surgeon,0.0026379952
+medical_specialty_1_Anesthesiology,0.0026117659
+medical_specialty_1_Pathology,0.0025873866
+medical_specialty_1_Endocrinology-Metabolism,0.0022475598
+medical_specialty_1_InfectiousDiseases,0.002237993
+medical_specialty_1_Hospitalist,0.0017758931
+medical_specialty_1_Cardiology-Pediatric,0.0015865703
+medical_specialty_1_Surgery-Cardiovascular,0.0015457019
+tolazamide_Steady,0.001281362
+medical_specialty_1_Obsterics&Gynecology-GynecologicOnco,0.0011500557
+glyburide-metformin_Up,0.0011376753
+medical_specialty_1_Radiology,0.0011273697
+nateglinide_Up,0.0011142748
+tolbutamide_Steady,0.0010386362
+chlorpropamide_Up,0.000967863
+medical_specialty_1_OutreachServices,0.0006082644
+medical_specialty_1_SportsMedicine,0.0
+medical_specialty_1_Psychiatry-Addictive,0.0
+metformin-rosiglitazone_Steady,0.0
+chlorpropamide_No,0.0
+medical_specialty_1_Surgery-Colon&Rectal,0.0
+glimepiride-pioglitazone_Steady,0.0
+metformin-pioglitazone_Steady,0.0
+medical_specialty_1_Surgery-Thoracic,0.0
+nateglinide_Steady,0.0
+nateglinide_No,0.0
+medical_specialty_1_Resident,0.0
+medical_specialty_1_Rheumatology,0.0
+medical_specialty_1_Surgery-PlasticwithinHeadandNeck,0.0
+medical_specialty_1_Speech,0.0
+medical_specialty_1_Surgery-Pediatric,0.0
+medical_specialty_1_Surgery-Maxillofacial,0.0
+medical_specialty_1_Psychiatry-Child/Adolescent,0.0
+medical_specialty_1_Pediatrics-EmergencyMedicine,0.0
+glipizide-metformin_Steady,0.0
+medical_specialty_1_Proctology,0.0
+acarbose_Up,0.0
+medical_specialty_1_DCPTEAM,0.0
+medical_specialty_1_Dentistry,0.0
+medical_specialty_1_Dermatology,0.0
+gender_Unknown/Invalid,0.0
+medical_specialty_1_Endocrinology,0.0
+rosiglitazone_Up,0.0
+miglitol_Up,0.0
+troglitazone_Steady,0.0
+medical_specialty_1_Neurophysiology,0.0
+acetohexamide_Steady,0.0
+tolazamide_Up,0.0
+medical_specialty_1_Ophthalmology,0.0
+medical_specialty_1_Osteopath,0.0
+medical_specialty_1_Pediatrics-AllergyandImmunology,0.0
+miglitol_Steady,0.0
+chlorpropamide_Steady,0.0
+medical_specialty_1_Pediatrics-Hematology-Oncology,0.0
+medical_specialty_1_Pediatrics-InfectiousDiseases,0.0
+medical_specialty_1_Perinatology,0.0
+medical_specialty_1_PhysicianNotFound,0.0
+medical_specialty_1_Anesthesiology-Pediatric,0.0
