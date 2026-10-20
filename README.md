@@ -116,10 +116,15 @@ Although XGBoost performed best, the moderate ROC-AUC indicates that hospital re
 
 1. Clone or download this repository.
 2. Install the required Python packages (requirements.txt)
-3. Open the notebook in `notebooks/` using Jupyter Notebook or JupyterLab.
-4. Run the notebook to reproduce the data analysis and machine-learning workflow.
-5. SQL analyses are available in `notebooks_sql/`.
-6. Power BI dashboard files are available in `powerbi/`.
+3. Run the Python analysis and machine-learning workflow.
+   - Open the Jupyter notebooks in the notebooks/ directory using Jupyter Notebook or JupyterLab.
+   - Execute the notebook cells in order to reproduce the data preprocessing, exploratory data analysis, model development, and evaluation.
+4. Explore the SQL analysis.
+   - The sql/ directory contains MariaDB SQL scripts for database setup, data quality checks, data transformation, and exploratory analysis.
+   - The notebooks_sql/ directory contains SQL-related Jupyter notebooks.
+   - To reproduce the MariaDB analysis, execute the SQL scripts in numerical order and update the dataset import path as needed.
+5. Explore the Power BI dashboard.
+   - Open the Power BI files in the powerbi/ directory using Power BI Desktop to explore the interactive visualisations and analytical findings.
 
 ---
 
