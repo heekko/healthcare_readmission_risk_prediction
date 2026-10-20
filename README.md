@@ -149,6 +149,7 @@ Hospital-Readmission-Risk/
 ├── notebooks/       — Python analysis and machine-learning modelling
 ├── notebooks_sql/   — SQL analysis and database
 ├── powerbi/         — Power BI dashboard and visualisations
+├── sql/             — MariaDB scripts for data preparation and exploratory analysis 
 ├── requirements.txt — Python dependencies
 └── README.md        — Project documentation
 
