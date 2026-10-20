@@ -1,0 +1,22 @@
+
+# SQL Analysis (MariaDB)
+
+The SQL analysis uses the UCI Diabetes 130-US Hospitals dataset to investigate hospital readmission patterns.
+
+
+## SQL workflow
+
+1. 01_dataset_setup.sql - Creates the database and table, and imports the CSV dataset.
+
+2. 02_data_quality_checks.sql - Examines encounter counts, duplicate identifiers, and missing values.
+
+3. 03_data_transformation.sql - Creates binary indicators for any readmission and readmission within 30 days.
+
+4. 04_exploratory_analysis.sql - Explores associations between readmission outcomes and patient age, hospital utilisation, medication burden, HbA1c results, hospital stay duration, and diagnosis burden.
+
+
+## How to run
+
+Execute the scripts in numerical order using MariaDB. Before running the setup script, update the CSV import path to match your local environment.
+
+The dataset import is intended for initial setup and should not be repeated on a populated table.
